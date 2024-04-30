@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Adithya Mohan's Homepage"
+title                    : "codewiz1394's Homepage"
 title_separator          : "-"
 name                     : &name "Adithya Mohan"
 description              : &description "I am a doctoral researcher focusing on adversarial attacks and defenses in Deep Reinforcement Learning"
@@ -22,7 +22,7 @@ repository               : "codewiz1394/codewiz1394.github.io"
 author:
   # Biographic information
   avatar           : "Bewerbungsbild.jpg"
-  name             : "Codewiz1394"
+  name             : "Adithya Mohan"
   pronouns         : # example: "she/her"  
   bio              : "I build robots and make them think and feel safe!!!!"
   location         : "Ingolstadt, Germany"

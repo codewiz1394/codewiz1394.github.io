@@ -1,14 +1,14 @@
 ---
-title: "Grundlagen der Programmierung/"
+title: "Teaching experience 1"
 collection: teaching
-type: "Undergraduate Robotics Student"
-permalink: /teaching/2023-Winter
-venue: "Technische Hochschule Ingolstadt"
-date: 01.10.2023
-location: "Ingolstadt, Germany"
+type: "Undergraduate course"
+permalink: /teaching/2014-spring-teaching-1
+venue: "University 1, Department"
+date: 2014-01-01
+location: "City, Country"
 ---
 
-Teaching Robotics Bachelors Students Basics of C Programming. This is a Practical Course at THI
+This is a description of a teaching experience. You can use markdown like any other post.
 
 Heading 1
 ======

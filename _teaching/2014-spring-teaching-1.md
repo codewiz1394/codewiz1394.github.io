@@ -1,14 +1,14 @@
 ---
-title: "Teaching experience 1"
+title: "Basics of C Programming"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Technische Hochschule Ingolstadt, Electrical and Information Technology"
+date: WS23/24
+location: "Ingolstadt, Germany"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+This course dealt with the basics of C Programming
 
 Heading 1
 ======

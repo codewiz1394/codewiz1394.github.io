@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Technische Hochschule Ingolstadt, Electrical and Information Technology"
-date: "WS23/24"
+date: 01.10.2023
 location: "Ingolstadt, Germany"
 ---
 

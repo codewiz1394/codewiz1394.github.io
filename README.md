@@ -1,5 +1,5 @@
-
-# Academic Pages - Codewiz
+ 
+# Academic Pages - Codewiz - Adithya Mohan's personal portfolio
 
 ![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 

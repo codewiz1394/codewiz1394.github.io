@@ -22,5 +22,5 @@ main:
   - title: "CV"
     url: /files/Mohan,Adithya_CV.pdf
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/

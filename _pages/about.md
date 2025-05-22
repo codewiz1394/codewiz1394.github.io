@@ -47,7 +47,9 @@ Example: editing a markdown file for a talk
 For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
-# Hi, I'm Adithya Mohan 👋 
+
+
+<!-- # Hi, I'm Adithya Mohan 👋 
 
 I am an AI Engineer and a Doctoral Researcher at Technische Hochschule Ingolstadt. 
 
@@ -62,4 +64,26 @@ My focus is on Adversarial attacks and Defenses in Deep Reinforcement Leanring
 * Deep Learning
 * Reinforcement Learning
 * LLMs
-* Self Supervised Learning
+* Self Supervised Learning -->
+
+## 👋 Hi, I’m Adithya Mohan
+
+I’m an AI Engineer and a Doctoral Researcher at Technische Hochschule Ingolstadt, Germany.  
+My research is centered on **adversarial attacks and defenses in Deep Reinforcement Learning (DRL)**, with a strong focus on real-world applications in autonomous systems.
+
+I work at the crossroads of robotics, safety, and intelligent decision-making — building agents that can **learn, adapt, and act reliably** even when faced with adversarial inputs. From training DRL agents in simulation to testing them on real vehicles equipped with LiDAR, GNSS, and camera systems, I aim to **bridge the gap between research and reality** in embodied AI.
+
+---
+
+## 🛠️ Skills & Tools
+
+- **Programming:** Python, C++, Matlab/Simulink  
+- **Frameworks:** ROS / ROS2, Gymnasium, Gazebo, PyTorch  
+- **Expertise Areas:**
+  - Machine Learning & Deep Learning  
+  - Reinforcement Learning (DRL)  
+  - Imitation & Inverse Reinforcement Learning  
+  - Adversarial Robustness  
+  - Large Language Models (LLMs)  
+  - Self-Supervised Learning  
+  - Autonomous Driving & Robotics

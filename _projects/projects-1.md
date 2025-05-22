@@ -1,6 +1,6 @@
 ---
 title: "Tic Tac Toe"
-excerpt: "Just a C programming practice to build tic tac toe game 1<br/><img src='/images/tic_tac_toe.png'>"
+excerpt: "Just a C programming practice to build tic tac toe game <br/><img src='/images/tic_tac_toe.png'>"
 collection: projects
 ---
 

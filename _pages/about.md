@@ -68,10 +68,9 @@ My focus is on Adversarial attacks and Defenses in Deep Reinforcement Leanring
 
 ## 👋 Hi, I’m Adithya Mohan
 
-I’m an AI Engineer and a Doctoral Researcher at Technische Hochschule Ingolstadt, Germany.  
-My research is centered on **adversarial attacks and defenses in Deep Reinforcement Learning (DRL)**, with a strong focus on real-world applications in autonomous systems.
+I’m an AI Engineer and a Doctoral Researcher at Technische Hochschule Ingolstadt, Germany. My research is centered on **adversarial attacks and defenses in Deep Reinforcement Learning (DRL)**, with a strong focus on real-world applications in autonomous systems.
 
-I work at the crossroads of robotics, safety, and intelligent decision-making — building agents that can **learn, adapt, and act reliably** even when faced with adversarial inputs. From training DRL agents in simulation to testing them on real vehicles equipped with LiDAR, GNSS, and camera systems, I aim to **bridge the gap between research and reality** in embodied AI.
+I work at the crossroads of robotics, safety, and intelligent decision-making and building agents that can **learn, adapt, and act reliably** even when faced with adversarial inputs. From training DRL agents in simulation to testing them on real vehicles equipped with LiDAR, GNSS, and camera systems, I aim to **bridge the gap between research and reality** in embodied AI.
 
 ---
 

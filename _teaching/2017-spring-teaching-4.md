@@ -8,13 +8,14 @@ date: 2024-10-01 to 2025-02-01
 location: "Ingolstadt, Germany"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+mentoring students to develop their attitude towards reading, writing and understading sceintific writing process
 
-Heading 1
+WS24
 ======
+Handled papers and topics on Adversarial attacks and defenses, Deep Reinforcement Learning and Trajectory planning for Autonomous systems
 
-Heading 2
+<!-- Heading 2
 ======
 
 Heading 3
-======
+====== -->

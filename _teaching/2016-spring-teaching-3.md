@@ -8,13 +8,14 @@ date: 2024-10-01 to 2025-02-01
 location: "Ingolstadt, Germany"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Mentoring a group of Master students to build on AI project ideas
 
-Heading 1
+WS24: 
 ======
+Implementing PPO in Metadrive Environment
 
-Heading 2
+<!-- Heading 2
 ======
 
 Heading 3
-======
+====== -->

@@ -8,13 +8,13 @@ date: 2024-10-01 to 2025-02-01
 location: "Ingolstadt, Germany"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Basics of Python programming for bachelor students
 
-Heading 1
+<!-- Heading 1
 ======
 
 Heading 2
 ======
 
 Heading 3
-======
+====== -->

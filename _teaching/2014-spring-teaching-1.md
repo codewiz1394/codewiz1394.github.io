@@ -10,11 +10,11 @@ location: "Ingolstadt, Germany"
 
 This course dealt with the basics of C Programming
 
-Heading 1
+<!-- Heading 1
 ======
 
 Heading 2
 ======
 
 Heading 3
-======
+====== -->

@@ -8,13 +8,13 @@ date: 2024-03-01 to 2024-08-01
 location: "Ingolstadt, Germany"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+This course involves the basics of Reinforcement learning and practical implementations of Q-Learning and Deep Q Network. I taught in SS24 and SS25.
 
-Heading 1
+<!-- Heading 1
 ======
 
 Heading 2
 ======
 
 Heading 3
-======
+====== -->

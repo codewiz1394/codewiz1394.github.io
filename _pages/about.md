@@ -48,7 +48,6 @@ For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
 # Hi, I'm Adithya Mohan 👋 
-## [The portfolio is still under construction!!!]
 
 I am an AI Engineer and a Doctoral Researcher at Technische Hochschule Ingolstadt. 
 
@@ -62,7 +61,5 @@ My focus is on Adversarial attacks and Defenses in Deep Reinforcement Leanring
 * Machine Learning
 * Deep Learning
 * Reinforcement Learning
-
-## Projects
-* [Project 1 Title](Project 1 Link) - Short description
-* [Project 2 Title](Project 2 Link) - Short description
+* LLMs
+* Self Supervised Learning

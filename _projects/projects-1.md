@@ -5,3 +5,5 @@ collection: projects
 ---
 
 Developed a Tic Tac Toe game in C programming.
+
+[Github](https://github.com/codewiz1394/tictactoe.git)

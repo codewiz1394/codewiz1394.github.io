@@ -2,11 +2,12 @@
 layout: archive
 title: "Projects"
 permalink: /projects/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
 
+<p class="archive__item-excerpt">Add new projects by creating a markdown file in <code>_projects</code>. If you want a project card to direct to an external demo or a <code>github.io</code> page, set <code>link:</code> in that file's front matter.</p>
 
 {% for post in site.projects %}
   {% include archive-single.html %}

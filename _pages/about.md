@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Personal Portfolio"
-author_profile: true
+title: "Adithya Mohan"
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
@@ -66,7 +66,7 @@ My focus is on Adversarial attacks and Defenses in Deep Reinforcement Leanring
 * LLMs
 * Self Supervised Learning -->
 
-## 👋 Hi, I’m Adithya Mohan
+## Hi, I'm Adithya Mohan
 
 I’m an AI Engineer and a Doctoral Researcher at Technische Hochschule Ingolstadt, Germany. My research is centered on **adversarial attacks and defenses in Deep Reinforcement Learning (DRL)**, with a strong focus on real-world applications in autonomous systems.
 
@@ -74,7 +74,7 @@ I work at the crossroads of robotics, safety, and intelligent decision-making an
 
 ---
 
-## 🛠️ Skills & Tools
+## Skills and Tools
 
 - **Programming:** Python, C++, Matlab/Simulink  
 - **Frameworks:** ROS / ROS2, Gymnasium, Gazebo, PyTorch  

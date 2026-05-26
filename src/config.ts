@@ -30,14 +30,57 @@ export const siteConfig = {
     "Autonomous Driving",
     "Robotics",
   ],
-  projects: [
+  research: [
     {
-      name: "UrbanIng-V2X",
+      title: "The Evolution of Criticality in Deep Reinforcement Learning",
+      venue: "ICAART'25",
+      award: "",
       description:
-        "A large-scale cooperative perception dataset captured at three intelligent urban intersections in Ingolstadt, Germany. Facilitates research into multi-vehicle perception alongside V2I and V2V communication technologies. Published at NeurIPS'25.",
-      link: "https://thi-ad.github.io/urbaning/",
-      skills: ["Cooperative Perception", "V2X Communication", "Autonomous Driving", "ROS2"],
+        "Investigates how criticality — a measure of an agent's sensitivity to state perturbations — evolves throughout the training of deep reinforcement learning agents.",
+      links: { project: "", paper: "", code: "", bibtex: "", video: "" },
     },
+    {
+      title: "Advancing Robustness in Deep Reinforcement Learning with an Ensemble Defense Approach",
+      venue: "ITSC'25",
+      award: "",
+      description:
+        "Proposes an ensemble-based defense framework that improves the adversarial robustness of DRL agents in autonomous driving scenarios.",
+      links: { project: "", paper: "", code: "", bibtex: "", video: "" },
+    },
+    {
+      title: "UrbanIng-V2X: A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception",
+      venue: "NeurIPS'25",
+      award: "",
+      description:
+        "A large-scale cooperative perception dataset captured at three intelligent urban intersections in Ingolstadt, Germany, enabling research into V2I and V2V communication.",
+      links: { project: "https://thi-ad.github.io/urbaning/", paper: "", code: "", bibtex: "", video: "" },
+    },
+    {
+      title: "DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration",
+      venue: "IV'26",
+      award: "",
+      description:
+        "A multimodal driving dataset with full digital twin integration, bridging the gap between simulation and real-world autonomous driving research.",
+      links: { project: "", paper: "", code: "", bibtex: "", video: "" },
+    },
+    {
+      title: "Towards Robust Agents: A Survey of Adversarial Attacks and Defenses in Deep Reinforcement Learning",
+      venue: "IEEE ACCESS",
+      award: "",
+      description:
+        "A comprehensive survey of adversarial attack strategies and defense mechanisms in deep reinforcement learning, with a focus on safety-critical applications.",
+      links: { project: "", paper: "", code: "", bibtex: "", video: "" },
+    },
+    {
+      title: "Real-Time Evaluation of Autonomous Systems under Adversarial Attacks",
+      venue: "ITSC'26",
+      award: "",
+      description:
+        "Presents a real-time evaluation framework for assessing the performance of autonomous systems when subjected to adversarial perturbations.",
+      links: { project: "", paper: "", code: "", bibtex: "", video: "" },
+    },
+  ],
+  projects: [
     {
       name: "Tic Tac Toe",
       description:

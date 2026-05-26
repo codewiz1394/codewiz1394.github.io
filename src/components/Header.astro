@@ -2,6 +2,7 @@
 import { siteConfig } from "../config";
 
 const hasResearch = siteConfig.research && siteConfig.research.length > 0;
+const hasTalks = siteConfig.talks && siteConfig.talks.length > 0;
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
@@ -29,6 +30,18 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Research
+            </a>
+          </li>
+        )
+      }
+      {
+        hasTalks && (
+          <li>
+            <a
+              href="#talks"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Talks
             </a>
           </li>
         )

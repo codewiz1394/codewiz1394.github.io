@@ -30,6 +30,34 @@ export const siteConfig = {
     "Autonomous Driving",
     "Robotics",
   ],
+  talks: [
+    {
+      title: "Adversarial Attacks in Deep Reinforcement Learning: A Call for Robust Defenses",
+      event: "Munich Datageeks Event – January 2025 Edition @ CiB",
+      date: "Jan 30, 2025",
+      location: "Munich, Germany",
+      description:
+        "Explored how adversarial perturbations target DRL systems, revealing critical vulnerabilities that compromise performance and reliability. Covered key attack strategies, their implications for autonomous systems, and the emerging need for robust, scalable defense mechanisms.",
+      thumbnail: "https://img.youtube.com/vi/iJKIszBQwvY/maxresdefault.jpg",
+      links: {
+        video: "https://www.youtube.com/watch?v=iJKIszBQwvY",
+        event: "https://www.meetup.com/munich-datageeks/events/305552437/?eventOrigin=group_events_list",
+        blog: "https://www.cib.de/en/ki-cib-munich-datageeks-january-edition-2025/",
+      },
+    },
+    {
+      title: "How Robust Is Your Self-Driving AI?",
+      event: "AI with a Human Touch – Ep. 1",
+      date: "",
+      location: "",
+      description:
+        "A deep dive into the robustness challenges facing self-driving AI systems, examining adversarial threats and the path toward reliable autonomous driving.",
+      thumbnail: "https://img.youtube.com/vi/ZD4K5SzI6hk/maxresdefault.jpg",
+      links: {
+        video: "https://www.youtube.com/watch?v=ZD4K5SzI6hk",
+      },
+    },
+  ],
   research: [
     {
       title: "The Evolution of Criticality in Deep Reinforcement Learning",

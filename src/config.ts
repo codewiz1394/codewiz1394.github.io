@@ -187,6 +187,13 @@ export const siteConfig = {
   ],
   projects: [
     {
+      name: "Adversarial Robustness Demo",
+      description:
+        "Interactive Streamlit app demonstrating FGSM and PGD adversarial attacks on MNIST and Fashion-MNIST. Compares a standard CNN against a PGD-7 adversarially trained model — visualising the robustness-accuracy tradeoff in real time.",
+      link: "https://github.com/codewiz1394/adversarial-mnist",
+      skills: ["PyTorch", "Streamlit", "Python", "Adversarial Robustness"],
+    },
+    {
       name: "Tic Tac Toe",
       description:
         "A C programming practice project implementing the classic Tic Tac Toe game.",

@@ -63,6 +63,7 @@ export const siteConfig = {
       title: "The Evolution of Criticality in Deep Reinforcement Learning",
       venue: "ICAART'25",
       award: "",
+      image: "/icaart.png",
       description:
         "Investigates how criticality — a measure of an agent's sensitivity to state perturbations — evolves throughout the training of deep reinforcement learning agents.",
       links: {
@@ -84,6 +85,7 @@ export const siteConfig = {
       title: "Advancing Robustness in Deep Reinforcement Learning with an Ensemble Defense Approach",
       venue: "ITSC'25",
       award: "",
+      image: "/itsc25.png",
       description:
         "Proposes an ensemble-based defense framework that improves the adversarial robustness of DRL agents in autonomous driving scenarios.",
       links: {
@@ -103,6 +105,7 @@ export const siteConfig = {
       title: "UrbanIng-V2X: A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception",
       venue: "NeurIPS'25",
       award: "",
+      image: "/neurips25.png",
       description:
         "A large-scale cooperative perception dataset captured at three intelligent urban intersections in Ingolstadt, Germany, enabling research into V2I and V2V communication.",
       links: {
@@ -124,6 +127,7 @@ export const siteConfig = {
       title: "DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration",
       venue: "IV'26",
       award: "",
+      image: "/iv26.png",
       description:
         "A multimodal driving dataset with full digital twin integration, bridging the gap between simulation and real-world autonomous driving research.",
       links: {
@@ -143,6 +147,7 @@ export const siteConfig = {
       title: "Towards Robust Agents: A Survey of Adversarial Attacks and Defenses in Deep Reinforcement Learning",
       venue: "IEEE ACCESS",
       award: "",
+      image: "/ieee access.png",
       description:
         "A comprehensive survey of adversarial attack strategies and defense mechanisms in deep reinforcement learning, with a focus on safety-critical applications.",
       links: {
@@ -163,6 +168,7 @@ export const siteConfig = {
       title: "Real-Time Evaluation of Autonomous Systems under Adversarial Attacks",
       venue: "ITSC'26",
       award: "",
+      image: "/itsc26.png",
       description:
         "Presents a real-time evaluation framework for assessing the performance of autonomous systems when subjected to adversarial perturbations.",
       links: {

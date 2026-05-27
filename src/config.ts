@@ -65,7 +65,7 @@ export const siteConfig = {
       award: "",
       image: "/icaart.png",
       description:
-        "Investigates how criticality — a measure of an agent's sensitivity to state perturbations — evolves throughout the training of deep reinforcement learning agents.",
+        "Investigates how criticality — a measure of an agent's sensitivity to in critical states — evolves throughout the training of deep reinforcement learning agents.",
       links: {
         project: "",
         paper: "https://www.scitepress.org/Papers/2025/131142/131142.pdf",

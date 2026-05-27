@@ -65,7 +65,20 @@ export const siteConfig = {
       award: "",
       description:
         "Investigates how criticality — a measure of an agent's sensitivity to state perturbations — evolves throughout the training of deep reinforcement learning agents.",
-      links: { project: "", paper: "", code: "", bibtex: "", video: "" },
+      links: {
+        project: "",
+        paper: "https://www.scitepress.org/Papers/2025/131142/131142.pdf",
+        code: "",
+        video: "",
+        bibtex: `@inproceedings{karpenahalli2025evolution,
+  title={The evolution of criticality in deep reinforcement learning},
+  author={Karpenahalli Ramakrishna, Chidvilas and Mohan, Adithya and Zeinaly, Zahra and Belzner, Lenz},
+  booktitle={Proceedings of the 17th International Conference on Agents and Artificial Intelligence (ICAART 2025)-Volume 3},
+  pages={217--224},
+  year={2025},
+  organization={SciTePress}
+}`,
+      },
     },
     {
       title: "Advancing Robustness in Deep Reinforcement Learning with an Ensemble Defense Approach",
@@ -73,7 +86,18 @@ export const siteConfig = {
       award: "",
       description:
         "Proposes an ensemble-based defense framework that improves the adversarial robustness of DRL agents in autonomous driving scenarios.",
-      links: { project: "", paper: "", code: "", bibtex: "", video: "" },
+      links: {
+        project: "",
+        paper: "https://arxiv.org/pdf/2507.17070",
+        code: "",
+        video: "",
+        bibtex: `@article{mohan2025advancing,
+  title={Advancing robustness in deep reinforcement learning with an ensemble defense approach},
+  author={Mohan, Adithya and R{\\"o}{\\ss}le, Dominik and Cremers, Daniel and Sch{\\"o}n, Torsten},
+  journal={arXiv preprint arXiv:2507.17070},
+  year={2025}
+}`,
+      },
     },
     {
       title: "UrbanIng-V2X: A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception",
@@ -81,7 +105,20 @@ export const siteConfig = {
       award: "",
       description:
         "A large-scale cooperative perception dataset captured at three intelligent urban intersections in Ingolstadt, Germany, enabling research into V2I and V2V communication.",
-      links: { project: "https://thi-ad.github.io/urbaning/", paper: "", code: "", bibtex: "", video: "" },
+      links: {
+        project: "https://thi-ad.github.io/urbaning/",
+        paper: "https://arxiv.org/pdf/2510.23478",
+        code: "",
+        video: "",
+        bibtex: `@article{sekaran2025urbaning,
+  title={Urbaning-v2x: A large-scale multi-vehicle, multi-infrastructure dataset across multiple intersections for cooperative perception},
+  author={Sekaran, Karthikeyan Chandra and Geisler, Markus and R{\\"o}{\\ss}le, Dominik and Mohan, Adithya and Cremers, Daniel and Utschick, Wolfgang and Botsch, Michael and Huber, Werner and Sch{\\"o}n, Torsten},
+  journal={Sensors},
+  volume={10},
+  pages={16},
+  year={2025}
+}`,
+      },
     },
     {
       title: "DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration",
@@ -89,7 +126,18 @@ export const siteConfig = {
       award: "",
       description:
         "A multimodal driving dataset with full digital twin integration, bridging the gap between simulation and real-world autonomous driving research.",
-      links: { project: "", paper: "", code: "", bibtex: "", video: "" },
+      links: {
+        project: "https://thi-ad.github.io/driving/",
+        paper: "https://arxiv.org/pdf/2601.15260",
+        code: "",
+        video: "",
+        bibtex: `@article{rossle2026driving,
+  title={DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration},
+  author={R{\\"o}{\\ss}le, Dominik and Xie, Xujun and Mohan, Adithya and Sambandham, Venkatesh Thirugnana and Cremers, Daniel and Sch{\\"o}n, Torsten},
+  journal={arXiv preprint arXiv:2601.15260},
+  year={2026}
+}`,
+      },
     },
     {
       title: "Towards Robust Agents: A Survey of Adversarial Attacks and Defenses in Deep Reinforcement Learning",
@@ -97,7 +145,19 @@ export const siteConfig = {
       award: "",
       description:
         "A comprehensive survey of adversarial attack strategies and defense mechanisms in deep reinforcement learning, with a focus on safety-critical applications.",
-      links: { project: "", paper: "", code: "", bibtex: "", video: "" },
+      links: {
+        project: "",
+        paper: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11363601",
+        code: "",
+        video: "",
+        bibtex: `@article{mohan2026toward,
+  title={Toward Robust Agents: A Survey of Adversarial Attacks and Defenses in Deep Reinforcement Learning},
+  author={Mohan, Adithya and Sch{\\"o}n, Torsten},
+  journal={IEEE Access},
+  year={2026},
+  publisher={IEEE}
+}`,
+      },
     },
     {
       title: "Real-Time Evaluation of Autonomous Systems under Adversarial Attacks",
@@ -105,7 +165,18 @@ export const siteConfig = {
       award: "",
       description:
         "Presents a real-time evaluation framework for assessing the performance of autonomous systems when subjected to adversarial perturbations.",
-      links: { project: "", paper: "", code: "", bibtex: "", video: "" },
+      links: {
+        project: "",
+        paper: "https://arxiv.org/pdf/2605.03491",
+        code: "",
+        video: "",
+        bibtex: `@article{mohan2026real,
+  title={Real-Time Evaluation of Autonomous Systems under Adversarial Attacks},
+  author={Mohan, Adithya and Xie, Xujun and Sambandham, Venkatesh Thirugnana and Sch{\\"o}n, Torsten},
+  journal={arXiv preprint arXiv:2605.03491},
+  year={2026}
+}`,
+      },
     },
   ],
   projects: [

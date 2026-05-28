@@ -20,8 +20,6 @@ export const siteConfig = {
     "Matlab/Simulink",
     "ROS/ROS2",
     "PyTorch",
-    "Gymnasium",
-    "Gazebo",
     "AWS",
     "Azure",
     "Deep Reinforcement Learning",

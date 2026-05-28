@@ -7,7 +7,7 @@ const hasResearch = siteConfig.research && siteConfig.research.length > 0;
   hasResearch && (
     <section id="research" class="p-8 sm:p-12 md:p-16 lg:p-24">
       <div>
-        <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900 mb-3">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900 dark:text-gray-100 mb-3">
           Research
         </h2>
         <div
@@ -21,10 +21,10 @@ const hasResearch = siteConfig.research && siteConfig.research.length > 0;
             const activeUrlLinks = Object.entries(urlLinks).filter(([, v]) => v);
             const hasBibtex = !!bibtex;
             return (
-              <div class="flex flex-col bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+              <div class="flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
                 {/* Cover image */}
                 {paper.image ? (
-                  <div class="h-44 w-full flex items-center justify-center bg-white p-3">
+                  <div class="h-44 w-full flex items-center justify-center bg-white dark:bg-gray-800 p-3">
                     <img
                       src={paper.image}
                       alt={paper.title}
@@ -33,7 +33,7 @@ const hasResearch = siteConfig.research && siteConfig.research.length > 0;
                   </div>
                 ) : (
                   <div
-                    class="h-44 flex items-center justify-center text-xs text-gray-400 font-mono"
+                    class="h-44 flex items-center justify-center text-xs text-gray-400 dark:text-gray-500 font-mono"
                     style={`background: linear-gradient(135deg, ${siteConfig.accentColor}18 0%, ${siteConfig.accentColor}08 100%)`}
                   >
                     Preview coming soon
@@ -50,25 +50,25 @@ const hasResearch = siteConfig.research && siteConfig.research.length > 0;
                       {paper.venue}
                     </span>
                     {paper.award && (
-                      <span class="px-3 py-1 rounded-full text-xs font-semibold border border-gray-300 text-gray-600">
+                      <span class="px-3 py-1 rounded-full text-xs font-semibold border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-400">
                         {paper.award}
                       </span>
                     )}
                   </div>
 
                   {/* Title */}
-                  <h3 class="text-lg font-bold text-gray-900 leading-snug">
+                  <h3 class="text-lg font-bold text-gray-900 dark:text-gray-100 leading-snug">
                     {paper.title}
                   </h3>
 
                   {/* Description */}
-                  <p class="text-sm text-gray-600 leading-relaxed flex-1">
+                  <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed flex-1">
                     {paper.description}
                   </p>
 
                   {/* Links */}
                   {(activeUrlLinks.length > 0 || hasBibtex) && (
-                    <div class="flex flex-wrap gap-x-4 gap-y-1 pt-2 border-t border-gray-100">
+                    <div class="flex flex-wrap gap-x-4 gap-y-1 pt-2 border-t border-gray-100 dark:border-gray-700">
                       {activeUrlLinks.map(([type, url]) => (
                         <a
                           href={url}

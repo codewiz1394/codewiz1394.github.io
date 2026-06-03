@@ -9,6 +9,7 @@ export const siteConfig = {
     twitter: "",
     github: "https://github.com/codewiz1394",
     scholar: "https://scholar.google.com/citations?user=adXUG_EAAAAJ&hl=en",
+    youtube: "https://www.youtube.com/@CodewithCodewiz",
     cv: "/cv.pdf",
   },
   aboutMe:

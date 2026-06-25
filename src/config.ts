@@ -59,6 +59,27 @@ export const siteConfig = {
   ],
   research: [
     {
+      title: "RoAd-RL: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning",
+      venue: "IEEE ICECCME'26",
+      award: "",
+      image: "",
+      description:
+        "An open-source benchmarking framework providing unified abstractions for policies, attacks, defenses, and robustness metrics in adversarial RL. Evaluates DQN, PPO, and SAC under 192 attack-defense configurations across LunarLander and Highway-v0.",
+      links: {
+        project: "/research/road-rl",
+        paper: "",
+        code: "https://pypi.org/project/road-rl",
+        video: "",
+        bibtex: `@inproceedings{mohan2026road,
+  title={{RoAd-RL}: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning},
+  author={Mohan, Adithya and Kriegl, Daniel and Sch{\\"o}n, Torsten},
+  booktitle={IEEE International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)},
+  year={2026}
+}`,
+        comingSoon: ["paper"],
+      },
+    },
+    {
       title: "The Evolution of Criticality in Deep Reinforcement Learning",
       venue: "ICAART'25",
       award: "",

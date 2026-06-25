@@ -1,0 +1,273 @@
+---
+import { siteConfig } from "../../config";
+
+const accentColor = siteConfig.accentColor;
+const paper = siteConfig.research.find((r) => r.title.startsWith("RoAd-RL"))!;
+const codeLink = paper.links.code;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="RoAd-RL: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning — IEEE ICECCME 2026"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>RoAd-RL — IEEE ICECCME'26</title>
+    <script is:inline>
+      const stored = localStorage.getItem("theme");
+      if (
+        stored === "dark" ||
+        (!stored && window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
+    <style>
+      * { font-family: "IBM Plex Mono", monospace; }
+      .bibtex-block { tab-size: 2; }
+    </style>
+  </head>
+
+  <body class="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100">
+    <!-- Nav -->
+    <nav class="sticky top-0 z-10 bg-white/90 dark:bg-gray-950/90 backdrop-blur border-b border-gray-200 dark:border-gray-800 px-6 py-4">
+      <a
+        href="/#research"
+        class="text-sm font-semibold hover:underline"
+        style={`color: ${accentColor}`}
+      >
+        &larr; Back to portfolio
+      </a>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 py-16 space-y-16">
+
+      <!-- Hero -->
+      <section class="space-y-6">
+        <div class="flex flex-wrap gap-2 items-center">
+          <span
+            class="px-3 py-1 rounded-full text-xs font-semibold text-white"
+            style={`background-color: ${accentColor}`}
+          >
+            IEEE ICECCME'26
+          </span>
+          <span class="px-3 py-1 rounded-full text-xs font-semibold border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-400">
+            Open Source
+          </span>
+        </div>
+
+        <h1 class="text-3xl sm:text-4xl font-bold leading-tight">
+          RoAd-RL: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning
+        </h1>
+
+        <p class="text-base text-gray-600 dark:text-gray-400">
+          Adithya Mohan &nbsp;&middot;&nbsp; Daniel Kriegl &nbsp;&middot;&nbsp; Torsten Schön
+          <br />
+          <span class="text-sm">AImotion Bavaria, Technische Hochschule Ingolstadt</span>
+        </p>
+
+        <!-- Link buttons -->
+        <div class="flex flex-wrap gap-3">
+          <!-- Paper: coming soon -->
+          <span
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700 text-sm font-semibold text-gray-400 dark:text-gray-500 cursor-default"
+            title="Will be updated soon"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+            </svg>
+            Paper (coming soon)
+          </span>
+
+          <!-- Code -->
+          <a
+            href={codeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-lg border text-sm font-semibold transition-colors duration-200 hover:opacity-80"
+            style={`border-color: ${accentColor}; color: ${accentColor}`}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+            </svg>
+            Code (PyPI)
+          </a>
+
+          <!-- Project page (current) -->
+          <span
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold text-white"
+            style={`background-color: ${accentColor}`}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+            Project Page
+          </span>
+        </div>
+
+        <p class="text-xs text-gray-400 dark:text-gray-500 italic">
+          * Full paper and additional resources will be updated soon.
+        </p>
+      </section>
+
+      <hr class="border-gray-200 dark:border-gray-800" />
+
+      <!-- Abstract -->
+      <section class="space-y-4">
+        <h2 class="text-xl font-bold">Abstract</h2>
+        <p class="text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+          Deep Reinforcement Learning (DRL) has achieved significant success in robotics and autonomous
+          systems, yet remains vulnerable to adversarial perturbations that can severely degrade
+          performance. Research in adversarial reinforcement learning is often limited by fragmented
+          implementations, inconsistent evaluation protocols, and poor reproducibility. To address
+          these challenges, we present <strong>RoAd-RL</strong>, an open-source benchmarking framework
+          that provides unified abstractions for policies, attacks, defenses, and robustness metrics,
+          together with reproducible evaluation pipelines and seamless integration with
+          Stable-Baselines3 and Gymnasium.
+        </p>
+        <p class="text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+          We evaluate DQN, PPO, and SAC agents in LunarLander and Highway-v0 under 192 attack-defense
+          configurations. Results reveal substantial variations in robustness across environments and
+          show that some commonly used defenses can be more detrimental than the attacks they aim to
+          mitigate, while temporal smoothing consistently achieves strong performance.
+        </p>
+      </section>
+
+      <!-- Framework -->
+      <section class="space-y-6">
+        <h2 class="text-xl font-bold">Framework</h2>
+        <p class="text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+          RoAd-RL organizes adversarial robustness evaluation into a three-stage pipeline:
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {[
+            { step: "01", title: "Train Policy", body: "Train DQN, PPO, or SAC agents via Stable-Baselines3 with your environment spec." },
+            { step: "02", title: "Build Eval Pipeline", body: "Compose trained policy with an adversarial attack (FGSM, PGD, JSMA) and an optional defense." },
+            { step: "03", title: "Evaluate Performance", body: "Sweep over ε budgets and seeds; compute AUC-ε, CVaR, return drop, and safety metrics." },
+          ].map(({ step, title, body }) => (
+            <div class="p-5 rounded-xl border border-gray-200 dark:border-gray-800 space-y-2">
+              <div class="text-xs font-bold" style={`color: ${accentColor}`}>{step}</div>
+              <div class="font-bold text-sm">{title}</div>
+              <p class="text-xs text-gray-600 dark:text-gray-400 leading-relaxed">{body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- Core abstractions -->
+      <section class="space-y-6">
+        <h2 class="text-xl font-bold">Core Abstractions</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {[
+            { name: "Policy", sig: "act(obs) → action", desc: "Unified interface for DQN, PPO, SAC. Gradient-based attacks additionally use forward(obs) and loss(obs)." },
+            { name: "Attack", sig: "apply(obs, policy, ctx) → obs", desc: "Encapsulates adversarial perturbation. FGSM, PGD, and JSMA are implemented; new attacks added by subclassing." },
+            { name: "Defense", sig: "apply(obs, ctx) → obs", desc: "Inference-time mechanisms: temporal smoothing, Gaussian noise, feature squeezing, outlier clipping, and more." },
+            { name: "Metric", sig: "compute(episodes) → MetricResult", desc: "Standardized reporting: AUC-ε, CVaR, episode termination rate, and normalized return degradation." },
+          ].map(({ name, sig, desc }) => (
+            <div class="p-5 rounded-xl border border-gray-200 dark:border-gray-800 space-y-2">
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-sm">{name}</span>
+              </div>
+              <code class="text-xs block text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-900 px-3 py-1.5 rounded-lg">{sig}</code>
+              <p class="text-xs text-gray-600 dark:text-gray-400 leading-relaxed">{desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- Quick start -->
+      <section class="space-y-4">
+        <h2 class="text-xl font-bold">Quick Start</h2>
+        <pre class="text-xs bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-5 overflow-x-auto leading-relaxed"><code>{`pip install road-rl
+
+from road_rl.policies import SB3DQNPolicy
+from road_rl.attacks import PGDAttack
+from road_rl.defenses import MovingAverageSmoothingDefense
+from road_rl.eval import Evaluator, EvalSpec
+from stable_baselines3 import DQN
+
+policy = SB3DQNPolicy(DQN.load("lunar_dqn.zip"))
+attack = PGDAttack(steps=10, norm="linf")
+defense = MovingAverageSmoothingDefense(window=3)
+
+spec = EvalSpec(
+    env_id="LunarLander-v2",
+    algorithm="dqn",
+    epsilons=[0.0, 0.01, 0.025, 0.05],
+    seeds=[0, 1, 2],
+    attack=attack,
+    defense=defense,
+)
+
+results = Evaluator().run(policy, [spec])`}</code></pre>
+      </section>
+
+      <!-- Key findings -->
+      <section class="space-y-6">
+        <h2 class="text-xl font-bold">Key Findings</h2>
+        <div class="space-y-3">
+          {[
+            "Temporal smoothing is the most reliable defense — improving SAC AUC on LunarLander under PGD from 0.590 to 0.752 (~27% recovery).",
+            "Several defenses (OutlierClip, AdversarialDetector) hurt performance more than the attacks they target, with AUC values dropping below zero.",
+            "JSMA is the weakest attack on compact 8-dimensional spaces; FGSM often outperforms PGD in single-step degradation on discrete-action policies.",
+            "Highway-v0 agents are largely robust to gradient-based attacks, but SAC degrades sharply when smoothing-based defenses distort its continuous action space.",
+          ].map((finding) => (
+            <div class="flex gap-3 text-sm text-gray-700 dark:text-gray-300">
+              <span class="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full mt-2" style={`background-color: ${accentColor}`} />
+              <span class="leading-relaxed">{finding}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- BibTeX -->
+      <section class="space-y-4">
+        <h2 class="text-xl font-bold">BibTeX</h2>
+        <div class="relative">
+          <pre
+            id="bibtex-block"
+            class="bibtex-block text-xs bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-5 overflow-x-auto leading-relaxed"
+          >{`@inproceedings{mohan2026road,
+  title={{RoAd-RL}: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning},
+  author={Mohan, Adithya and Kriegl, Daniel and Sch{\\"{o}}n, Torsten},
+  booktitle={IEEE International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)},
+  year={2026}
+}`}</pre>
+          <button
+            id="copy-bibtex"
+            class="absolute top-3 right-3 text-xs px-3 py-1.5 rounded-lg border font-semibold transition-colors duration-200 hover:opacity-80"
+            style={`border-color: ${accentColor}; color: ${accentColor}`}
+          >
+            copy
+          </button>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="border-t border-gray-200 dark:border-gray-800 px-6 py-8 text-center text-xs text-gray-400 dark:text-gray-500">
+      <a href="/" class="hover:underline" style={`color: ${accentColor}`}>{siteConfig.name}</a>
+      &nbsp;&middot;&nbsp; AImotion Bavaria, THI &nbsp;&middot;&nbsp; 2026
+    </footer>
+
+    <script>
+      document.getElementById("copy-bibtex")?.addEventListener("click", () => {
+        const text = document.getElementById("bibtex-block")?.textContent ?? "";
+        navigator.clipboard.writeText(text).then(() => {
+          const btn = document.getElementById("copy-bibtex")!;
+          btn.textContent = "copied!";
+          setTimeout(() => { btn.textContent = "copy"; }, 1800);
+        });
+      });
+    </script>
+  </body>
+</html>

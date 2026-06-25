@@ -18,7 +18,8 @@ const hasResearch = siteConfig.research && siteConfig.research.length > 0;
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {siteConfig.research.map((paper) => {
             const { bibtex, ...urlLinks } = paper.links;
-            const activeUrlLinks = Object.entries(urlLinks).filter(([, v]) => v);
+            const comingSoon: string[] = (urlLinks as any).comingSoon ?? [];
+            const activeUrlLinks = Object.entries(urlLinks).filter(([k, v]) => v && k !== "comingSoon");
             const hasBibtex = !!bibtex;
             return (
               <div class="flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
@@ -67,7 +68,7 @@ const hasResearch = siteConfig.research && siteConfig.research.length > 0;
                   </p>
 
                   {/* Links */}
-                  {(activeUrlLinks.length > 0 || hasBibtex) && (
+                  {(activeUrlLinks.length > 0 || hasBibtex || comingSoon.length > 0) && (
                     <div class="flex flex-wrap gap-x-4 gap-y-1 pt-2 border-t border-gray-100 dark:border-gray-700">
                       {activeUrlLinks.map(([type, url]) => (
                         <a
@@ -79,6 +80,14 @@ const hasResearch = siteConfig.research && siteConfig.research.length > 0;
                         >
                           {type} &rarr;
                         </a>
+                      ))}
+                      {comingSoon.map((type) => (
+                        <span
+                          class="text-sm font-semibold capitalize text-gray-400 dark:text-gray-500 cursor-default"
+                          title="Will be updated soon"
+                        >
+                          {type} (soon)
+                        </span>
                       ))}
                       {hasBibtex && (
                         <button

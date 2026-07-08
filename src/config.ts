@@ -62,21 +62,22 @@ export const siteConfig = {
       title: "RoAd-RL: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning",
       venue: "IEEE ICECCME'26",
       award: "",
-      image: "",
+      image: "/road-rl.png",
       description:
         "An open-source benchmarking framework providing unified abstractions for policies, attacks, defenses, and robustness metrics in adversarial RL. Evaluates DQN, PPO, and SAC under 192 attack-defense configurations across LunarLander and Highway-v0.",
       links: {
-        project: "/research/road-rl",
-        paper: "",
-        code: "https://pypi.org/project/road-rl",
+        paper: "https://arxiv.org/pdf/2606.29867",
+        code: "https://pypi.org/project/road-rl/0.0.2/",
         video: "",
-        bibtex: `@inproceedings{mohan2026road,
-  title={{RoAd-RL}: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning},
-  author={Mohan, Adithya and Kriegl, Daniel and Sch{\\"o}n, Torsten},
-  booktitle={IEEE International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)},
-  year={2026}
+        bibtex: `@misc{mohan2026roadrlunifiedlibrarybenchmark,
+      title={RoAd-RL: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning},
+      author={Adithya Mohan and Daniel Kriegl and Torsten Sch{\\"o}n},
+      year={2026},
+      eprint={2606.29867},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2606.29867},
 }`,
-        comingSoon: ["paper"],
       },
     },
     {
@@ -206,6 +207,13 @@ export const siteConfig = {
     },
   ],
   projects: [
+    {
+      name: "RoAd-RL",
+      description:
+        "Open-source Python library and benchmark for robust adversarial reinforcement learning. Provides unified abstractions for policies, attacks, defenses, and robustness metrics, evaluating DQN, PPO, and SAC under 192 attack-defense configurations across LunarLander and Highway-v0.",
+      link: "https://github.com/codewiz1394/road-rl",
+      skills: ["PyTorch", "Reinforcement Learning", "Adversarial Robustness", "Python"],
+    },
     {
       name: "Adversarial Robustness Demo",
       description:

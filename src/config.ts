@@ -59,28 +59,6 @@ export const siteConfig = {
   ],
   research: [
     {
-      title: "RoAd-RL: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning",
-      venue: "IEEE ICECCME'26",
-      award: "",
-      image: "/road-rl.png",
-      description:
-        "An open-source benchmarking framework providing unified abstractions for policies, attacks, defenses, and robustness metrics in adversarial RL. Evaluates DQN, PPO, and SAC under 192 attack-defense configurations across LunarLander and Highway-v0.",
-      links: {
-        paper: "https://arxiv.org/pdf/2606.29867",
-        code: "https://pypi.org/project/road-rl/0.0.2/",
-        video: "",
-        bibtex: `@misc{mohan2026roadrlunifiedlibrarybenchmark,
-      title={RoAd-RL: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning},
-      author={Adithya Mohan and Daniel Kriegl and Torsten Sch{\\"o}n},
-      year={2026},
-      eprint={2606.29867},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2606.29867},
-}`,
-      },
-    },
-    {
       title: "The Evolution of Criticality in Deep Reinforcement Learning",
       venue: "ICAART'25",
       award: "",
@@ -202,6 +180,28 @@ export const siteConfig = {
   author={Mohan, Adithya and Xie, Xujun and Sambandham, Venkatesh Thirugnana and Sch{\\"o}n, Torsten},
   journal={arXiv preprint arXiv:2605.03491},
   year={2026}
+}`,
+      },
+    },
+    {
+      title: "RoAd-RL: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning",
+      venue: "IEEE ICECCME'26",
+      award: "",
+      image: "/road-rl.png",
+      description:
+        "An open-source benchmarking framework providing unified abstractions for policies, attacks, defenses, and robustness metrics in adversarial RL. Evaluates DQN, PPO, and SAC under 192 attack-defense configurations across LunarLander and Highway-v0.",
+      links: {
+        paper: "https://arxiv.org/pdf/2606.29867",
+        code: "https://pypi.org/project/road-rl/0.0.2/",
+        video: "",
+        bibtex: `@misc{mohan2026roadrlunifiedlibrarybenchmark,
+      title={RoAd-RL: A Unified Library and Benchmark for Robust Adversarial Reinforcement Learning},
+      author={Adithya Mohan and Daniel Kriegl and Torsten Sch{\\"o}n},
+      year={2026},
+      eprint={2606.29867},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2606.29867},
 }`,
       },
     },

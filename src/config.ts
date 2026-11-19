@@ -205,6 +205,29 @@ export const siteConfig = {
 }`,
       },
     },
+    {
+      title: "WorkIng: A Real-World and Synthetic Highway Work-Zone Benchmark Dataset for Autonomous Navigation",
+      venue: "WACV'27",
+      award: "",
+      image: "/WACV_title_image_v2.png",
+      description:
+        "A highway work-zone benchmark pairing a real-world, multi-modal dataset of a 6–7 km road-work corridor (six cameras, 128-channel LiDAR, drone views, day and night) with a CARLA-based synthetic counterpart featuring custom road-work assets and six canonical work-zone topologies.",
+      links: {
+        project: "",
+        paper: "https://arxiv.org/pdf/2610.41772",
+        code: "",
+        video: "",
+        bibtex: `@misc{xie2026workingrealworldsynthetichighway,
+      title={WorkIng: A Real-World and Synthetic Highway Work-Zone Benchmark Dataset for Autonomous Navigation},
+      author={Xujun Xie and Dominik R{\\"o}{\\ss}le and Adithya Mohan and Daniel Cremers and Torsten Sch{\\"o}n},
+      year={2026},
+      eprint={2610.41772},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2610.41772},
+}`,
+      },
+    },
   ],
   projects: [
     {
@@ -237,7 +260,7 @@ export const siteConfig = {
       bullets: [
         "Developed and led a full autonomous driving stack with ROS2 for real-car deployment",
         "Researching adversarial attacks and defenses in Deep Reinforcement Learning (DRL)",
-        "Published at ICAART'25, ITSC'25, NeurIPS'25, IV'26, and IEEE ACCESS",
+        "Published at ICAART'25, ITSC'25, NeurIPS'25, IV'26, IEEE ACCESS, ITSC'26, IEEE ICECCME'26, and WACV'27",
       ],
     },
     {

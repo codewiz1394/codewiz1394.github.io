@@ -255,7 +255,7 @@ export const siteConfig = {
   experience: [
     {
       company: "Technische Hochschule Ingolstadt",
-      title: "AI Researcher – Team Lead",
+      title: "AI Robotics Engineer & Doctoral Researcher",
       dateRange: "Mar 2023 – Present",
       bullets: [
         "Developed and led a full autonomous driving stack with ROS2 for real-car deployment",

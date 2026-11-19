@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "cv": "cd cv && latexmk -pdf -interaction=nonstopmode -outdir=build cv.tex && cp build/cv.pdf ../public/cv.pdf"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",

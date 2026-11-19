@@ -275,7 +275,7 @@ export const siteConfig = {
     {
       company: "Quantum Systems GmbH",
       title: "Robotics Software Engineer",
-      dateRange: "Sep 2021 – Jul 2022",
+      dateRange: "Sep 2021 – Aug 2022",
       bullets: [
         "Built path planning GUI with PyQt for UAV landing operations",
         "Developed drone task automation stack, unit tests, and CI/CD tooling",

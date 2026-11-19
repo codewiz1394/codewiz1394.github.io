@@ -1,0 +1,190 @@
+% CV of Adithya Mohan
+% Build:  npm run cv   (or: cd cv && latexmk -pdf cv.tex)
+% Output is copied to public/cv.pdf, which the portfolio links to.
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[a4paper,top=1.2cm,bottom=1.2cm,left=1.4cm,right=1.4cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[default,scale=1.0]{opensans}
+\usepackage{cinzel}
+\usepackage[letterspace=150]{microtype}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{accent}{HTML}{1F4E9C}
+\definecolor{rulegray}{HTML}{9CA3AF}
+\definecolor{subtle}{HTML}{4B5563}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\JustifyingParindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.1}
+
+% ---------- Helpers ----------
+% Section heading: letter-spaced caps with a rule underneath.
+\newcommand{\cvsection}[1]{%
+  {\large\bfseries\textls{\MakeUppercase{#1}}}\par
+  \vspace{2pt}{\color{rulegray}\hrule height 0.6pt}\vspace{5pt}}
+
+\newcommand{\dates}[1]{\mbox{\small\textcolor{accent}{#1}}}
+
+% \job{Company}{Dates}{Title}{Description}
+\newcommand{\job}[4]{%
+  {\bfseries #1}\hfill\dates{#2}\par
+  {\itshape #3}\par
+  \vspace{1pt}{\small\color{subtle}#4\par}%
+  \vspace{5pt plus 6pt}}
+
+% \school{School}{Dates}{Degree}{Place}
+\newcommand{\school}[4]{%
+  {\bfseries #1}\hfill\dates{#2}\par
+  #3\par
+  {\small\color{subtle}#4\par}%
+  \vspace{4pt plus 6pt}}
+
+\newlist{numlist}{enumerate}{1}
+\setlist[numlist]{label={[\arabic*]},leftmargin=*,labelsep=5pt,
+  itemsep=3pt plus 3pt,topsep=2pt,parsep=0pt,align=left}
+
+\newcommand{\venue}[1]{\textcolor{accent}{(#1)}}
+
+\begin{document}
+
+% ================= HEADER (full width) =================
+\begin{center}
+  {\fontsize{28}{30}\selectfont\cinzelblack ADITHYA MOHAN}\par
+  \vspace{4pt}
+  {\color{subtle}AI Robotics Engineer \& Doctoral Researcher}\par
+  \vspace{3pt}
+  \href{mailto:herrmohan1394@gmail.com}{herrmohan1394@gmail.com}
+  \enspace{\color{rulegray}|}\enspace
+  \href{https://codewiz1394.github.io}{\textcolor{accent}{Portfolio}}
+  \enspace{\color{rulegray}|}\enspace
+  \href{https://www.linkedin.com/in/adithya-mohan-770743141/}{\textcolor{accent}{LinkedIn}}\par
+\end{center}
+\vspace{2pt}
+
+\cvsection{Objective}
+\justifying
+I work at the crossroads of robotics, safety, and intelligent
+decision-making, building agents that can learn, adapt, and act reliably
+even when faced with adversarial inputs. From training DRL agents in
+simulation to testing them on real vehicles equipped with LiDAR, GNSS, and
+camera systems, I aim to bridge the gap between research and reality in
+embodied AI.\par
+\vspace{10pt}
+
+% Both columns get the same fixed height; \vfill between sections spreads
+% any leftover space evenly so the columns end on the same line.
+\newlength{\colheight}
+\setlength{\colheight}{\dimexpr\textheight-\pagetotal-4pt\relax}
+
+\raggedright
+% ================= LEFT COLUMN =================
+\begin{minipage}[t][\colheight][s]{0.505\textwidth}
+\raggedright
+
+\cvsection{Relevant Experience}
+\job{Technische Hochschule Ingolstadt}{03/2023 -- Current}
+    {AI Robotics Engineer \& Doctoral Researcher}
+    {Developed and led the project of a full autonomous driving stack with
+     ROS2 for real-car deployment and research in DRL under adversarial
+     attacks.}
+\job{Franka Emika GmbH}{08/2022 -- 12/2022}{AI Robotics Engineer}
+    {Designed learning engine and modular C++ test framework for Franka
+     arms. Developed safe ML pipelines and guided safety practices.}
+\job{Quantum Systems GmbH}{09/2021 -- 08/2022}{Robotics Software Engineer}
+    {Path planning GUI with PyQt for UAV landing. Developed drone task
+     automation stack, unit tests, and CI/CD tools.}
+\job{ARE23 GmbH}{08/2020 -- 08/2021}{Junior Robotics Engineer}
+    {ROS-based planning, perception using OpenCV/Keras, AWS workflows,
+     \& web deployment. Built internal testing suites.}
+\job{Innok Robotics GmbH}{02/2020 -- 08/2020}{Master Thesis Student}
+    {Developed robot diagnostics tool and visualization pipeline in
+     Python and ROS.}
+\job{Flex India Pvt.\ Ltd}{08/2016 -- 08/2018}{Senior Analyst}
+    {Led material planning and lean automation initiatives, applying
+     analytics (Python, R, SQL, Tableau) to optimize supply chain
+     operations.}
+
+\vspace{6pt plus 30pt}
+\cvsection{Education}
+\school{Technische Hochschule Ingolstadt}{03/2023 -- Current}
+       {Ph.D. Artificial Intelligence \textit{(Dr.\ rer.\ nat.)}}
+       {Ingolstadt, Germany}
+\school{Technische Hochschule Deggendorf}{03/2019 -- 03/2021}
+       {M.Eng. Mechatronics \& Cyber Physical Systems}
+       {Deggendorf, Germany}
+\school{Anna University}{09/2012 -- 05/2016}
+       {B.Eng. Mechanical Engineering}{Chennai, India}
+
+\vspace{6pt plus 30pt}
+\cvsection{Skills}
+\textbf{Languages}: C++, C, Python, Matlab, Simulink\par
+\vspace{2pt}
+\textbf{Technologies}: ROS/ROS2, PyTorch, AWS, Azure\par
+\end{minipage}%
+\hfill
+% ================= RIGHT COLUMN =================
+\begin{minipage}[t][\colheight][s]{0.46\textwidth}
+\raggedright
+
+\cvsection{Selected Publications}
+\begin{numlist}
+  \item \href{https://www.scitepress.org/Papers/2025/131142/131142.pdf}
+        {The Evolution of Criticality in Deep Reinforcement Learning}
+        \venue{ICAART'25}
+  \item \href{https://arxiv.org/pdf/2507.17070}
+        {Advancing Robustness in Deep Reinforcement Learning with an
+        Ensemble Defense Approach} \venue{ITSC'25}
+  \item \href{https://arxiv.org/pdf/2510.23478}
+        {UrbanIng-V2X: A Large-Scale Multi-Vehicle, Multi-Infrastructure
+        Dataset Across Multiple Intersections for Cooperative Perception}
+        \venue{NeurIPS'25}
+  \item \href{https://arxiv.org/pdf/2601.15260}
+        {DrivIng: A Large-Scale Multimodal Driving Dataset with Full
+        Digital Twin Integration} \venue{IV'26}
+  \item \href{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11363601}
+        {Towards Robust Agents: A Survey of Adversarial Attacks and
+        Defenses in Deep Reinforcement Learning} \venue{IEEE Access}
+  \item \href{https://arxiv.org/pdf/2605.03491}
+        {Real-Time Evaluation of Autonomous Systems under Adversarial
+        Attacks} \venue{ITSC'26}
+  \item \href{https://arxiv.org/pdf/2606.29867}
+        {RoAd-RL: A Unified Library and Benchmark for Robust Adversarial
+        Reinforcement Learning} \venue{IEEE ICECCME'26}
+  \item \href{https://arxiv.org/pdf/2610.41772}
+        {WorkIng: A Real-World and Synthetic Highway Work-Zone Benchmark
+        Dataset for Autonomous Navigation} \venue{WACV'27}
+\end{numlist}
+
+\vspace{6pt plus 30pt}
+\cvsection{Academic Activities}
+\textbf{Reviewing}\par
+ITSC'25, ITSC'26, IV'26, IV'27, AAMAS'27, ICRA'27\par
+\vspace{6pt plus 10pt}
+\textbf{Recent Talks}
+\begin{numlist}
+  \item \href{https://www.youtube.com/watch?v=iJKIszBQwvY}
+        {Adversarial Attacks in Deep Reinforcement Learning: A Call for
+        Robust Defenses}\\
+        {\small\color{subtle}Munich Datageeks @ CiB, 01/2025}
+  \item \href{https://www.youtube.com/watch?v=ZD4K5SzI6hk}
+        {How Robust Is Your Self-Driving AI?}\\
+        {\small\color{subtle}AI with a Human Touch, Ep.~1}
+\end{numlist}
+\vspace{6pt plus 10pt}
+\textbf{Teaching}
+\begin{numlist}
+  \item Practical Programming -- Python Basics
+  \item Scientific Seminar
+  \item AI Project
+  \item Principles of Autonomy \& Decision Making
+  \item Grundlagen der C-Programmierung
+  \item Computer Vision -- Practicals
+\end{numlist}
+\end{minipage}
+
+\end{document}
